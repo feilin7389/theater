@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+/* css for body */
+body {
+	background: linear-gradient(to top, rgba(254, 173, 166, 0.95), rgba(245, 239, 239,0.95));
+
+
+	color:black;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding: 10px;
+}
+
+main {
+	margin: 3%;
+}
+
+/* put line under the subtile*/
+#subtitle{
+	 border-bottom: 2px solid black;
+	 border-color: gray;
+	 padding: 1em;
+
+}
+
+
+
+/* put all text in the center*/
+h1 {
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+h3 {
+	text-align: center;
+
+}
+
+
+p {
+	text-align: center;
+
+	
+}
+
+form {
+	text-align: center;
+
+
+}
+
+
+/* style for clear button*/
+#clear {
+	position:absolute; 
+	top: 1.5em; 
+	right: 6.8em;
+	background-color: black; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	
+	
+}
+
+.inputdiv{
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+
+/* style for submit button*/
+button {
+	background-color: black; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+}
+
+
+.newScreeningButton{
+	width: 90%;
+	margin-bottom: 10px;
+}
+input{
+	height: 95%;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#clear:hover {
+	background-color: gray;
+	color: white;
+  }
+
+
+.screens{
+	display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.eachScreen{
+	padding: 2% 4%;
+	border: black;
+}
+
+.screens img{
+	width: 100%;
+	height: 80%;
+
+}
+
+.buttonDiv{
+	text-align: center;
+}
+.buttonDiv button{
+	margin: 10px;
+}
+
+.form-popup{
+    margin: 2%;
+    background-color: #fff;
+}
+
+#swipForm{
+	padding: 3%;
+}
+
+#select{
+	display: grid;
+    grid-template-columns: 100%;
+	margin:3%;
+	text-align: center;
+}
+
+#select select{
+	height: 100%;
+	margin: 2%;
+}
+.close-popup{
+    float: right;
+    margin: 2%;
+    border: none;
+	background: white;
+    color: black;
+    font-size: 25px;
+}
+
+#loginForm{
+	padding: 3%;
+}
+
+#loginForm p{
+	text-align: left;
+	line-height: 3em;
+}
+
+.eventContainer{
+	text-align: center;
+}
+
+.eventContainer input{
+	height: 100%;
+}
+  /* Add User/Event Forms */
+
+.ontop {
+    position: fixed;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 101;
+	font-size: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+
+
+
+
+
+
+
+
